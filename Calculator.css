@@ -1,0 +1,77 @@
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: bisque;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    padding-top: 10px;
+}
+
+body{
+    background-color: #b61c1c;
+}
+
+#calculator{
+    margin-left: 50px;
+}
+
+#money{
+    display: none;
+}
+
+button{
+    background-color: darkcyan;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    margin: 20px 0px 20px 50px;
+}
+
+button:hover{
+    background-color: indianred;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.dollarSign{
+    display: inline;    
+}
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
